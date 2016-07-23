@@ -41,9 +41,9 @@ class ViewController: UIViewController {
     /// 計算実行ボタン押下時の処理
     @IBAction private func calcurate(_: UIButton) {
     
-        let result = Int(value1.text!)! + Int(value2.text!)!
-/*        var result = 0
-
+//        let result = Int(value1.text!)! + Int(value2.text!)!
+        var result = 0
+/*
         switch selectedOperator {
         case "+" :
             result = Int(value1.text!)! + Int(value2.text!)!

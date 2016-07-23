@@ -27,7 +27,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwR-po-REk">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nwR-po-REk">
                                 <rect key="frame" x="68" y="145" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -61,7 +61,7 @@
                                     <action selector="calcurate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NHa-pL-4nj"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Ans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoD-IU-ZBl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoD-IU-ZBl">
                                 <rect key="frame" x="101" y="212" width="30" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -71,14 +71,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="G3T-ds-PpR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BVD-sH-Mf5"/>
+                            <constraint firstItem="nwR-po-REk" firstAttribute="top" secondItem="LMt-uP-cQw" secondAttribute="bottom" constant="33" id="Dtc-vm-04z"/>
                             <constraint firstItem="LMt-uP-cQw" firstAttribute="centerY" secondItem="gNN-Lg-9hd" secondAttribute="centerY" id="LV7-Qj-BvH"/>
                             <constraint firstItem="eoD-IU-ZBl" firstAttribute="top" secondItem="nwR-po-REk" secondAttribute="bottom" constant="37" id="XNS-YI-PAU"/>
                             <constraint firstAttribute="trailing" secondItem="JPn-iI-rc9" secondAttribute="trailing" id="Xgh-nb-O51"/>
                             <constraint firstItem="G3T-ds-PpR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XsF-Ps-U76"/>
                             <constraint firstItem="LMt-uP-cQw" firstAttribute="leading" secondItem="gNN-Lg-9hd" secondAttribute="trailing" constant="12" id="coi-2h-vEM"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JPn-iI-rc9" secondAttribute="bottom" id="kFi-3W-N58"/>
+                            <constraint firstItem="eoD-IU-ZBl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kkg-Rl-wLF"/>
                             <constraint firstItem="JPn-iI-rc9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="lSU-lI-gnz"/>
                             <constraint firstItem="gNN-Lg-9hd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="66" id="lUb-tl-b93"/>
+                            <constraint firstItem="nwR-po-REk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nOe-oz-Mkp"/>
                             <constraint firstItem="gNN-Lg-9hd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="qST-cQ-WzS"/>
                         </constraints>
                     </view>
