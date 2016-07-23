@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     /// 選択中の演算子
     
     private var selectedOperator = "+"
+    
 /*
     private let selectedOperator = [
         "+",
